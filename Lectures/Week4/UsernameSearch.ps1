@@ -1,5 +1,5 @@
 ﻿# Username matches
-$arr = Get-Content .\UserNameSearchUsers.txt
+$arr = Get-Content .\Lectures\Week4\UserNameSearchUsers.txt
 
 #FacStaff username match
 #$arr -match "^\D*$"

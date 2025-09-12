@@ -20,7 +20,7 @@ function piiChecker($msg){
 }
 
 # Get data from csv file
-$data = Get-Content .\employee.csv
+$data = Get-Content .\Lectures\Week4\employee.csv
 
 #Iterate through each line and check if PII is present
 foreach($line in $data){
