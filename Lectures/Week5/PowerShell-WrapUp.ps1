@@ -1,8 +1,8 @@
 # CMDLET Example
-Get-Random 
-Get-Random -Minimum 0 -Maximum 50
+# Get-Random 
+# Get-Random -Minimum 0 -Maximum 50
 
-# Store lottery pool
+# # Store lottery pool
 $LotteryNumbers = 1..50
 
 # Function Example
@@ -20,7 +20,7 @@ $DrawnNumbers = Get-LotteryNumbers 5
 $Matches = $MyTicket | Where-Object {$DrawnNumbers -contains $_}
 
 #Flow Control
-if ($Matches.count -gt 0){
+if ($Matches.count -gt 0) {
     Write-Host "You matched $($Matches.count) number(s): $Matches"
 }
 else {
